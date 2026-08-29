@@ -1,6 +1,6 @@
 # Legal Contract Review — Claude Code Plugin
 
-[![Validate plugin](https://github.com/your-org/legal-contract-review/actions/workflows/validate-plugin.yml/badge.svg)](https://github.com/your-org/legal-contract-review/actions/workflows/validate-plugin.yml)
+[![Validate plugin](https://github.com/sudhir944/Procurement-Tools/actions/workflows/validate-plugin.yml/badge.svg)](https://github.com/sudhir944/Procurement-Tools/actions/workflows/validate-plugin.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An AI-assisted **contract review toolkit for in-house counsel**, packaged as a [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin. It bundles eight focused skills — from version comparison to risk flagging to counter-proposal drafting — plus a clause library and negotiation playbook, so a legal team can review contracts faster and more consistently.
@@ -36,15 +36,15 @@ Skills also trigger automatically from natural language once the plugin is insta
 This repo is both a plugin **and** a single-plugin marketplace, so installation is two commands inside Claude Code:
 
 ```bash
-/plugin marketplace add your-org/legal-contract-review
+/plugin marketplace add sudhir944/Procurement-Tools
 ```
 
 ```bash
 /plugin install legal-contract-review@legal-contract-review-marketplace
 ```
 
-> Replace `your-org` with the GitHub owner you publish under. You can also add it from a local path during development:
-> `/plugin marketplace add /path/to/legal-contract-review`
+> You can also add it from a local path during development:
+> `/plugin marketplace add /path/to/Procurement-Tools`
 
 Restart Claude Code (or reload plugins) and the skills and `/contract-*` commands are available.
 

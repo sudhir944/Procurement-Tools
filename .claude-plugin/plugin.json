@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "AI-assisted contract review toolkit for in-house counsel: version comparison, risk flagging, plain-English translation, counter-proposals, playbook compliance, NDA triage, obligation extraction, and a clause library.",
   "author": {
-    "name": "Your Name",
-    "url": "https://github.com/your-org"
+    "name": "sudhir944",
+    "url": "https://github.com/sudhir944"
   },
-  "homepage": "https://github.com/your-org/legal-contract-review",
-  "repository": "https://github.com/your-org/legal-contract-review",
+  "homepage": "https://github.com/sudhir944/Procurement-Tools",
+  "repository": "https://github.com/sudhir944/Procurement-Tools",
   "license": "MIT",
   "keywords": [
     "legal",
