@@ -1,0 +1,27 @@
+# Generated review outputs (do not commit real contract analyses)
+CONTRACT-COMPARISON.md
+CONTRACT-RISK-ASSESSMENT.md
+PLAIN-ENGLISH-SUMMARY.md
+COUNTER-PROPOSAL.md
+PLAYBOOK-CHECK.md
+NDA-TRIAGE.md
+OBLIGATIONS-TRACKER.md
+SUGGESTED-CLAUSES.md
+REVIEW-PACKAGE.md
+
+# Real contracts / confidential material — never commit these
+/contracts/
+/matters/
+*.confidential.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Node (only if you later add tooling)
+node_modules/
+npm-debug.log*

@@ -1,0 +1,22 @@
+{
+  "name": "legal-contract-review",
+  "version": "1.0.0",
+  "description": "AI-assisted contract review toolkit for in-house counsel: version comparison, risk flagging, plain-English translation, counter-proposals, playbook compliance, NDA triage, obligation extraction, and a clause library.",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/your-org"
+  },
+  "homepage": "https://github.com/your-org/legal-contract-review",
+  "repository": "https://github.com/your-org/legal-contract-review",
+  "license": "MIT",
+  "keywords": [
+    "legal",
+    "contracts",
+    "contract-review",
+    "redline",
+    "in-house-counsel",
+    "compliance",
+    "nda",
+    "risk-assessment"
+  ]
+}
