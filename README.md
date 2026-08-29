@@ -1,5 +1,8 @@
 # Legal Contract Review — Claude Code Plugin
 
+[![Validate plugin](https://github.com/your-org/legal-contract-review/actions/workflows/validate-plugin.yml/badge.svg)](https://github.com/your-org/legal-contract-review/actions/workflows/validate-plugin.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 An AI-assisted **contract review toolkit for in-house counsel**, packaged as a [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin. It bundles eight focused skills — from version comparison to risk flagging to counter-proposal drafting — plus a clause library and negotiation playbook, so a legal team can review contracts faster and more consistently.
 
 > ⚖️ **Not legal advice.** Every output is AI-generated, for informational purposes only, and must be reviewed by a licensed attorney before you rely on it. See [Disclaimer](#disclaimer).
@@ -121,6 +124,16 @@ legal-contract-review/
 - **In-house-counsel framing** — skills always ask which party they are reviewing for and weigh favorability accordingly.
 - **Human-in-the-loop by design** — the plugin never sends emails or messages; counter-proposals and cover notes are produced as drafts for an attorney to review and send.
 - **Every report is self-contained Markdown** you can drop into a matter file or DMS.
+
+## Development
+
+Validate the plugin locally before pushing (requires Node 18+, no dependencies):
+
+```bash
+node scripts/validate-plugin.mjs
+```
+
+It checks that `plugin.json` and `marketplace.json` are valid and complete, that every `skills/*/SKILL.md` has frontmatter whose `name` matches its folder, and that each command declares a `description`. The same script runs in CI on every push and pull request via [`.github/workflows/validate-plugin.yml`](.github/workflows/validate-plugin.yml), so broken manifests or skills fail the build.
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Issues and PRs for new skills, better playbook/clause templates, or additional contract types are welcome.
